@@ -1,8 +1,66 @@
+body {
+    background: #dbd8d8;
+    font-family: Verdana;
+}
+
+#title {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
 #title, .subtitle, .post_title {
-    color: blue;
+    color: #505050;
+}
+
+a {
+    text-decoration:underline;
+    color: #4063c5;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin-bottom: 15px;
+
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #505050;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+
+.img_Post, .img_ilustracao {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.img_ilustracao {
+    border-radius: 50%;
+    border: 2px solid #505050;
+}
+
+.lista_1 {
+    list-style-image: url("https://img.icons8.com/small/2x/share-2.png");
+}
+
+.lista_2 {
+    list-style-image: url("https://img.icons8.com/small/2x/linkedin.png");
+}
+
+.lista_3 {
+    list-style-image: url("https://img.icons8.com/small/2x/github.png");
 }
