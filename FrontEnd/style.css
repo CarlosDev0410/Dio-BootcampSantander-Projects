@@ -1,6 +1,8 @@
 body {
-    background: #dbd8d8;
+    background-image: url("https://brasa.org.br/wp-content/uploads/2020/07/coding-background-texture.jpg");
     font-family: Verdana;
+    max-width: 700px;
+    margin: auto;
 }
 
 #title {
@@ -8,10 +10,11 @@ body {
     text-transform: uppercase;
     text-decoration: underline;
     font-style: oblique;
+    text-align: center;
 }
 
 #title, .subtitle, .post_title {
-    color: #505050;
+    color: #000000;
 }
 
 a {
@@ -34,7 +37,7 @@ a {
     margin-bottom: 15px;
 }
 
-.img_Post, .img_ilustracao {
+.img_Post {
     max-width:200px;
     max-height:150px;
     width: auto;
@@ -46,21 +49,26 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: left;
 }
 
 .img_ilustracao {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     border: 2px solid #505050;
 }
 
-.lista_1 {
+.content_1 {
     list-style-image: url("https://img.icons8.com/small/2x/share-2.png");
 }
 
-.lista_2 {
+.content_2 {
     list-style-image: url("https://img.icons8.com/small/2x/linkedin.png");
 }
 
-.lista_3 {
+.content_3 {
     list-style-image: url("https://img.icons8.com/small/2x/github.png");
 }
