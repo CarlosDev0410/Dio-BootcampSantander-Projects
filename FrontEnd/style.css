@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://brasa.org.br/wp-content/uploads/2020/07/coding-background-texture.jpg");
+    background: #fff;
     font-family: Verdana;
     max-width: 700px;
     margin: auto;
@@ -59,6 +59,18 @@ a {
     height: auto;
     border-radius: 50%;
     border: 2px solid #505050;
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    gap: 40px;
+
+    
 }
 
 .content_1 {
