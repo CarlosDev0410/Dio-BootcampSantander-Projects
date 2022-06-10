@@ -1,5 +1,7 @@
 # Dio-BootcampSantander-Projects 🔔
- Repositório para projetos do bootcamp Santander FullStack
+ Repositório para projetos do bootcamp Santander FullStack<br>
+ Projetos serão publicados de acordo com suas respectivas áreas (Front e back)
+ 
 
 # Links Úteis :rocket:
 
