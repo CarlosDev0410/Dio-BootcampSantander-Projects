@@ -6,19 +6,45 @@
 
 body {
     background: #fff;
-    font-family: Verdana;
-    max-width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
     margin: auto;
 }
 
 
 #title {
-    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin: auto;
+    width: auto;
+    min-width: 320px;
+    max-width: 100%;
     text-transform: uppercase;
-    text-decoration: underline;
-    font-style: oblique;
+    font-style: normal;
     text-align: center;
+    justify-content: space-around;
+    background-color: #2a7ae4;
 
+}
+
+#title img{
+    padding: 5px #fff;
+    display: flex;
+    max-width: 100px;
+    min-width: 50px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:
+        linear-gradient(45deg,
+            #f09433 0%, #e6683c 25%,
+            #dc2743 50%, #6902be 75%,
+            #bc1888 100%);
+}
+
+#title h1{
+    display: flex;
+    align-self: flex-end;
+    color: #fff;
 }
 
 #title, .subtitle, .post_title {
@@ -60,15 +86,6 @@ a {
     text-align: left;
 }
 
-.img_ilustracao {
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
 .container{
     display: flex;
     flex-direction: column ;
@@ -81,17 +98,6 @@ a {
     
 }
 
-.content_1 {
-    list-style-image: url("https://img.icons8.com/small/2x/share-2.png");
-}
-
-.content_2 {
-    list-style-image: url("https://img.icons8.com/small/2x/linkedin.png");
-}
-
-.content_3 {
-    list-style-image: url("https://img.icons8.com/small/2x/github.png");
-}
 
 /* -------------------------- Rodapé ------------------------------------*/
 
@@ -183,3 +189,4 @@ footer {
     }
 
 }
+
